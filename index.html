@@ -1,13 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles/style.css">
-    <script src="/scripts/script.js"></script>
-</head>
-<body>
-    <h1></h1>
-</body>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div id="cardPrincipal">
+      <h1>MEU CHURRASCO</h1>
+      <form action="">
+        <input id="adultos" type="number" placeholder="Adultos" />
+        <input id="criancas" type="number" placeholder="Crianças" />
+        <input id="duracao" type="number" placeholder="Tempo de duração" />
+        <button type="button" onclick="calcular()">+</button>
+
+        <div id="resultado"></div>
+      </form>
+    </div>
+    <script src="scripts/script.js"></script>
+  </body>
 </html>
